@@ -28,7 +28,7 @@ jobs:
         run: |
           cd build/web
           git init
-          git config --global user.email estevao.silva@4innovation.co
+          git config --global user.email estevao.silva@4innovation.com.br
           git config --global user.name Estevao4Innov
           git status
           git remote add origin https://${{secrets.token}}@github.com/estevaosoaresxd/learn_flutter_web.git
